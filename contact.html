@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <header>
@@ -20,9 +21,9 @@
     <div class="content">
         <main>
             <h1>Contact Me</h1>
-            <p>If you'd like to get in touch, feel free to fill out the form below or reach me through LinkedIn or GitHub. I'm always open to new opportunities and collaborations!</p>
+            <p>Feel free to get in touch through the form below or connect with me on LinkedIn or GitHub!</p>
             
-            <form>
+            <form id="contact-form">
                 <label for="name">Name:</label><br>
                 <input type="text" id="name" name="name" required><br><br>
                 <label for="email">Email:</label><br>
@@ -31,6 +32,8 @@
                 <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
                 <input type="submit" value="Submit">
             </form>
+
+            <p id="form-feedback"></p>
 
             <p>Connect with me on:</p>
             <ul>
@@ -41,7 +44,8 @@
     </div>
 
     <footer>
-        <p>&copy; 2024 Ambar Conde | Let's connect on <a href="https://www.linkedin.com/in/ambar-conde-012345269/" target="_blank">LinkedIn</a> or <a href="https://github.com/Ambar2803" target="_blank">GitHub</a></p>
+        <p>&copy; 2024 Ambar Conde | Let’s connect on <a href="https://www.linkedin.com/in/ambar-conde-012345269/" target="_blank">LinkedIn</a> or <a href="https://github.com/Ambar2803" target="_blank">GitHub</a></p>
     </footer>
 </body>
 </html>
+
